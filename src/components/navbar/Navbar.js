@@ -16,7 +16,7 @@ export const Navbar = () => {
           <h2 className={styles.websiteName}>Foodies Connect</h2>
         </div>
         <Searchbar />
-        {users.map((user)=><img src={user.avatarUrl} alt="" className={styles.profileImage} onClick={()=>navigate(`/profile/${user._id}`)}/>)}
+        {users.map((user)=><img key={user._id} src={user.avatarUrl} alt="" className={styles.profileImage} onClick={()=>navigate(`/profile/${user._id}`)}/>)}
       </nav>
     </div>
   );

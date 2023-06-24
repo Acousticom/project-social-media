@@ -6,6 +6,8 @@ const SocialMediaProvider=({children})=>{
     const [users,setUsers]=useState([])
     const [likeStatus,setLikedStatus]=useState(false)
     const [likedUser,setLikedUser]=useState([])
+    const [likeCounter,setLikeCounter]=useState('')
+    
     const getPosts= async()=>{
         try {
             const res=await fetch("/api/posts")
@@ -28,7 +30,7 @@ const SocialMediaProvider=({children})=>{
     }
     useEffect(()=>{ getUsers()},[])
     return(
-        <SocialMediaContext.Provider value={{posts,users}}>{children}</SocialMediaContext.Provider>
+        <SocialMediaContext.Provider value={{posts,users,likeStatus,setLikedStatus,likeCounter,setLikeCounter}}>{children}</SocialMediaContext.Provider>
     )
 }
 

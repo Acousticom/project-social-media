@@ -12,7 +12,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
     description:"So delicious yummy😊Are you pizza lover?",
     likes: {
-      likeCount: 0,
+      likeCount: 5,
       likedBy: [],
       dislikedBy: [],
     },
@@ -25,7 +25,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/f4c/d5729b8dd188bdc23b84cffc26bdff4c.jpg",
     description:"Every mini burger is meticulously crafted with love by our adorable productor manager ❤️ Ensuring every bite of our mini burgers is incredibly satisfying",
     likes: {
-      likeCount: 0,
+      likeCount: 3,
       likedBy: [],
       dislikedBy: [],
     },
@@ -49,7 +49,7 @@ export const posts = [
     _id: uuid(),
     description:"After a good dinner one can forgive anybody, even one's own relations.",
     likes: {
-      likeCount: 0,
+      likeCount: 4,
       likedBy: [],
       dislikedBy: [],
     },
@@ -62,7 +62,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/8f5/a569a85cc5bb16dc9cc44c8ba8a038f5.jpg",
     description:"Look whats cooking today!!!",
     likes: {
-      likeCount: 0,
+      likeCount: 4,
       likedBy: [],
       dislikedBy: [],
     },
@@ -75,7 +75,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/a1b/33aeef5a288728d595fef0cc858aea1b.jpg",
     description:"Noodles of the day",
     likes: {
-      likeCount: 0,
+      likeCount: 1,
       likedBy: [],
       dislikedBy: [],
     },
@@ -88,7 +88,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/pictures/6/1896/ede1a524f77ea28bb253f94cc831fda1_o2_featured_v2.jpg",
     description:"Lets celebrate 🥳 suday as the Bhaturey day 😋🍽️",
     likes: {
-      likeCount: 0,
+      likeCount: 2,
       likedBy: [],
       dislikedBy: [],
     },
@@ -101,7 +101,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/657/3abc18505a6c5188348bd021ce87e657.jpg",
     description:"Masala Dosa in the house😍",
     likes: {
-      likeCount: 0,
+      likeCount: 5,
       likedBy: [],
       dislikedBy: [],
     },
@@ -139,7 +139,7 @@ export const posts = [
     image:"https://th.bing.com/th/id/OIP.R-AOBfjWUoWDICzZbhiZKgHaFj?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     description:"So delicious yummy😊Are you pizza lover?",
     likes: {
-      likeCount: 0,
+      likeCount: 1,
       likedBy: [],
       dislikedBy: [],
     },
@@ -152,7 +152,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/b41/47df77de78ac5fc128da4f50799c1b41.jpg",
     description:"Lunch at Gulati's restaurant 🍗",
     likes: {
-      likeCount: 0,
+      likeCount: 2,
       likedBy: [],
       dislikedBy: [],
     },
@@ -165,7 +165,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/385/6f9802f2dc6532ac94b3eff6564f9385.jpg",
     description:"If you are confused what to order always go for a thali your never gonna disappoint 😊",
     likes: {
-      likeCount: 0,
+      likeCount: 1,
       likedBy: [],
       dislikedBy: [],
     },
@@ -178,7 +178,7 @@ export const posts = [
     image:"https://b.zmtcdn.com/data/dish_photos/9bd/f5c88e4d73e4a887035cbe3fef0d39bd.jpg",
     description:"Delhi waalon ka dil❤️ aur momos aur kahin nhi milenge ",
     likes: {
-      likeCount: 0,
+      likeCount: 4,
       likedBy: [],
       dislikedBy: [],
     },

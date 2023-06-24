@@ -9,7 +9,7 @@ export const FollowersSuggestionBar = () => {
     <div className={styles.container}>
       <h3>Suggestions for you</h3>
       {users.map((follower) => (
-        <div className={styles.followers}  >
+        <div className={styles.followers}  key={follower._id}>
           <img src={follower.avatarUrl} alt="" className={styles.avatar} onClick={()=>navigate(`/profile/${follower._id}`)}/>
           <div className={styles.name} onClick={()=>navigate(`/profile/${follower._id}`)}>
             <p>

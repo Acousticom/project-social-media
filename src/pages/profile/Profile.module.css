@@ -1,0 +1,19 @@
+.userDetails{
+    line-height: 9px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid red;
+    width: 500px;
+}
+.profileImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #9ca3af;
+}
+.bio{
+    line-height: 1.5rem;
+}

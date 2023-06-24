@@ -1,0 +1,28 @@
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.followers{
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    gap: .2rem;
+    
+}
+.name{
+    line-height: 4px;
+    cursor: pointer;
+    /* border: 2px solid blue; */
+}
+.container{
+    width: 250px;
+    text-align: center;
+}
+.button{
+    padding: .2rem .4rem;
+    border-radius: 5px;
+}

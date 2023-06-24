@@ -1,0 +1,25 @@
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.name{
+    line-height: 0px;
+}
+.image{
+    width: 100%
+}
+.postCard{
+    width: 400px;
+    border: 2px solid black;
+    margin: 2rem 0rem;
+}
+.description{
+    font-size: larger;
+}

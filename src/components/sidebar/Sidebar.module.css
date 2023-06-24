@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.linkContainer{
+    /* border: 2px solid red; */
+    margin: .4rem 0rem;
+    padding: .5rem 0rem;
+}

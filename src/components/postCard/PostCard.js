@@ -8,8 +8,6 @@ export const PostCard = ({ user }) => {
     posts,
     likeStatus,
     setLikedStatus,
-    likedUser,
-    setLikedUser,
     likeCounter,
     setLikeCounter,
   } = useSocialMedia();
@@ -28,7 +26,7 @@ export const PostCard = ({ user }) => {
   return (
     <div>
       {postDetails.map((post) => (
-        <li key={post._id} className={styles.postCard}>
+        <div key={post._id} className={styles.postCard}>
           <div className={styles.profile}>
             <img src={user.avatarUrl} alt="" className={styles.avatar} />
             <div className={styles.name}>
@@ -51,8 +49,8 @@ export const PostCard = ({ user }) => {
             <button onClick={()=>unLikeHandler(post._id)}>
               <AiOutlineHeart size="25" />
             </button> 
-          )}{likeCounter}
-        </li>
+          )}<span>{likeCounter}</span>
+        </div>
       ))}
     </div>
   );

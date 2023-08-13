@@ -15,6 +15,11 @@ export const SideBar = () => {
           Explore
         </Link>
       </div>
+      {/* <div className={styles.linkContainer}>
+        <Link to="/login" className={styles.link}>
+          Login
+        </Link>
+      </div> */}
       <div className={styles.linkContainer}>
         <Link to="/bookmarks" className={styles.link}>
           Bookmarks

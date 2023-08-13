@@ -1,7 +1,6 @@
 .container{
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
 }
 li{
     list-style: none;
@@ -11,4 +10,10 @@ button{
 }
 .image{
     width: 500px;
+}
+.profileImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
 }

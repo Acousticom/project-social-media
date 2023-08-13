@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    border: 2px solid black;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+.input{
+    width: 80%;
+    padding: .5rem .8rem;
+    font-size: large;
+}
+.button{
+    width: 90%;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: large;
+    border: none;
+    border-radius: 5px ;
+}
+
+.header{
+    text-align: center;
+}
+.label{
+    font-size: larger;
+}

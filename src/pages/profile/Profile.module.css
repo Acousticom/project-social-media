@@ -17,3 +17,7 @@
 .bio{
     line-height: 1.5rem;
 }
+.feeds{
+    display: flex;
+    justify-content: center;
+}

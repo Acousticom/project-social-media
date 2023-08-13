@@ -6,14 +6,17 @@ import reportWebVitals from "./reportWebVitals";
 import { makeServer } from "./server";
 import { SocialMediaProvider } from "./context/SocialMediaContext";
 import { BrowserRouter } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext";
 makeServer();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <SocialMediaProvider>
-        <App />
-      </SocialMediaProvider>
+      <AuthProvider>
+        <SocialMediaProvider>
+          <App />
+        </SocialMediaProvider>
+      </AuthProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
